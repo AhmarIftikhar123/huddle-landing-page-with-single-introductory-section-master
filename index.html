@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.1/css/all.min.css"
+      integrity="sha512-Tpk9JFEb5iyu8w6we+9BQraOr78aLxur4R4E70TJ+spVFDtQ/4F/YXE0w0j4TuJM5eAqOM3d+7KK6rF2/1MVKKg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="tailwind_css.css" />
+
+    <link rel="stylesheet" href="vanila_css.css" />
+
+    <title>
+      Frontend Mentor | Huddle landing page with single introductory section
+    </title>
+  </head>
+  <body
+    class=" body min-h-screen xl:min-h-screen md:min-h-screen lg:min-h-screen
+    bg-[url('images/bg-mobile.svg')] bg-no-repeat flex flex-col justify-center items-center text-center overflow-scroll
+    md:bg-[url('images/bg-desktop.svg')]
+    md:bg-center
+    "
+  >
+    <main class="container p-6 md:flex md:justify-between md:items-center relative">
+      <!-- Left_side -->
+
+      <div class="left_side md:flex-1 ">
+        <!-- logo -->
+
+        <div class="logo">
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <!-- design_img -->
+
+        <div class="design mt-10">
+          <img src="images/illustration-mockups.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- right_side -->
+
+      <div class="left_side md:flex-1 
+      md:text-left md:px-4  md:flex md:flex-col md:gap-5
+      lg:gap-10">
+        <!-- heading -->
+
+        <h1 class="heading text-white text-xl font-semibold mt-8
+        md:text-2xl md:mt-0
+        xl:text-3xl">
+          Build The Community <br />
+          Your Fans Will Love
+        </h1>
+
+        <p class="description text-white mt-4 flex flex-wrap text-sm font-thin
+        md:text-base md:mt-0 xl:text-xl xl:font-normal">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+
+        <!-- btn -->
+
+        <div
+          class="btn bg-white w-1/2 block m-auto mt-4 py-2 text-sm rounded-full opacity-80 mt-5
+          md:text-center md:mr-auto md:ml-0 md:text-base md:mt-5 xl:text-md  "
+        >
+          <button type="button" class="register_btn">Register</button>
+        </div>
+      </div>
+
+      <!-- footer` -->
+
+
+      <footer class="social_links flex justify-center gap-2 mt-12
+      md:absolute md:bottom-0 md:right-10 ">
+
+        <a href="#" class="hover:opacity-70 transition duration-300 ease-in-out"
+          ><img src="images/logo-facebook.svg" alt=""
+        /></a>
+        <a href="#" class="hover:opacity-70 transition duration-300 ease-in-out"
+          ><img src="images/logo-instagram.svg" alt=""
+        /></a>
+        <a href="#" class="hover:opacity-70 transition duration-300 ease-in-out"
+          ><img src="images/wb_cloudy_black_24dp.svg" alt=""
+        /></a>
+      </footer>
+    </main>
+  </body>
+</html>

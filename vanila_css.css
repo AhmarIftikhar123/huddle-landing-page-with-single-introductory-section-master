@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Epilogue&family=Hanken+Grotesk:wght@200&family=Inter:wght@200&family=Josefin+Sans:wght@200;300&family=Kumbh+Sans:wght@300;400&family=League+Spartan&family=Lexend+Deca:wght@300;400&family=Libre+Franklin:wght@200&family=Manrope:wght@200&family=Outfit:wght@200&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@200;300&family=Red+Hat+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Epilogue&family=Hanken+Grotesk:wght@200&family=Inter:wght@200&family=Josefin+Sans:wght@200;300&family=Kumbh+Sans:wght@300;400&family=League+Spartan&family=Lexend+Deca:wght@300;400&family=Libre+Franklin:wght@200&family=Manrope:wght@200&family=Open+Sans&family=Outfit:wght@200&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@200;300&family=Red+Hat+Display&display=swap");
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+body {
+  background-color: var(--Violet);
+  background-position: top center;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+.logo img {
+  width: 7rem;
+}
+.btn {
+  color: var(--Violet);
+  box-shadow: 1px 1px 5px var(--Soft-Magenta);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: var(--Soft-Magenta);
+  color: white;
+}
+.social_links a img {
+  width: 1.5rem;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 370px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .body {
+    background-size: 50rem;
+  }
+  .logo img {
+    width: 8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .logo img {
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .logo img {
+    width: 10rem;
+  }
+}
